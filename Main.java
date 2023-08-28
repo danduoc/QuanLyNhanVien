@@ -56,14 +56,7 @@ public class Main {
         System.out.println("Danh sách nhân viên:");
         System.out.println("===============================");
         for (NhanVien s : a) {
-        	System.out.println("Mã NV: " + s.getId());
-            System.out.println("Họ tên: " + s.getHoTen());
-            System.out.println("Tuổi: " + s.getTuoi());
-            System.out.println("Số điện thoại: " + s.getSoDienThoai());
-            System.out.println("Email: " + s.getEmail());
-            System.out.println("Lương cơ bản: " + s.getLuongCoBan());
-            System.out.println("Lương: " + s.tinhLuong());
-            System.out.println("===============================");
+        	s.display();
         }
     }
 }

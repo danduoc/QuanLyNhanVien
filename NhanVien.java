@@ -55,7 +55,7 @@ class NhanVien {
         System.out.println("SĐT = " + this.soDienThoai);
         System.out.println("Email = " + this.email);
         System.out.println("Luong co ban = " + this.luongCoBan);
-        System.out.println("Luong co ban = " + this.tinhLuong());
+        System.out.println("Tong luong = " + this.tinhLuong());
         System.out.println("===============================");
     }
 }
